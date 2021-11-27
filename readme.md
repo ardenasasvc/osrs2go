@@ -14,3 +14,12 @@ for alex.
 - a 16G or great SD card formatted with Ubuntu using the [raspberry pi imager](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#2-prepare-the-sd-cards)
 
 ## setup
+
+- with fresh SD card installed, boot raspberry pi and follow initial setup
+- once completed, connect the pi to a network of your choosing
+- clone this repository: `git clone https://github.com/ardenasasvc/osrs2go.git`
+- `cd osrs2go`
+- `./tailscale.sh`
+
+## errata
+- pi can't use 5ghz wifi networks 
